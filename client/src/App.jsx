@@ -1,11 +1,12 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-const App = () => {
+import Navbar from './components/Navbar';
+function App() {
   return (
-    <div>
+    
+      <div className="min-h-screen bg-gray-100">
       <Navbar/>
-    </div>
-  )
-}
+      </div>
+    
+  );
+};
 
 export default App
